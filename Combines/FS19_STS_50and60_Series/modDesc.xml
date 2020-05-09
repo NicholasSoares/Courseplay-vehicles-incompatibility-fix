@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+    <author>SiiD Modding, JHHG Modding</author>
+	<contributors>ESIT, Julian11, MB3D Modeling</contributors>
+    <version>1.2.0.0</version>
+    <iconFilename>store_JohnDeereSTS.dds</iconFilename>
+    <title>
+        <en>John Deere STS Series 2000-2004</en>
+        <de>John Deere STS Serie 2000-2004</de>
+        <fr>John Deere STS Série 2000-2004</fr>
+        <pl>John Deere STS z Serii 2000-2004</pl>
+    </title>
+   <description>
+        <en><![CDATA[This is John Deere STS Americanized 50 and 60 Series from 2000 - 2004.
+
+Price: 160000 €
+Performance: All STS 50 and 60 Series motor Configurations (160HP - 410HP)
+Category: Combine Harvester
+Capacity: 8853l - 15855l
+
+In pack: First 60 STS Series from 2004 (9560sts, 9660sts, 9760sts, 9860sts) in Brasil, USA and Aussie style and first 70 STS Series from 2010 (sts 9570, sts 9670, sts 9770 and sts 9870) in Brasil, USA and Aussie style.
+
+Configurations:
+
+- Wheels
+- Tank Extensions
+- Motor
+- Exhaust
+- Pipe
+- Tire Brand
+- Numbers
+- Cab Design
+- Greenstar GPS
+- Aussie Sign
+- Chopper Table
+
+
+Animation:
+
+
+- Fully scripted interior (monitors, icons, lights, HUDs)
+- TurnON animation
+- Realistic physics
+- Lot of moving Parts with separate functions
+- Scripted all interior parts (Pedals, Joystick, Gears, Park Break)
+- Chopper table works only when unfolded
+- Lights with reciveShadows!
+- All standard functions
+]]>
+        </en>
+        <de>
+            <![CDATA[Dies ist die John Deere STS Americanized Serie 70 und 60 von 2007 - 2010.
+
+Preis: 160000 €
+Leistung: Alle Motorkonfigurationen der STS 70- und 60-Serie (160 PS - 410 PS)
+Kategorie: Mähdrescher
+Fassungsvermögen: 8853l - 15855l
+
+Im Pack: Neueste 60 STS-Serie aus dem Jahr 2007 (9560, 9660, 9760, 9860) in Brasilien, USA und Aussie-Style und die erste 70 STS-Serie aus dem Jahr 2010 (9570, 9670, 9770 und 9870) in Brasilien, USA und Aussie-Stil.
+
+Konfigurationen:
+
+- Räder
+- Tankerweiterungen
+- Motor
+- Auspuff
+- Pfeife
+- Reifenmarke
+- Zahlen
+- Fahrerhaus Design
+- Greenstar GPS
+- Aussie Sign
+- Chopper Table
+
+
+Animation:
+
+
+- Vollständig geschriebene Innenausstattung (Monitore, Symbole, Lichter, HUDs)
+- Schalten Sie die Animation ein
+- Realistische Physik
+- Viele bewegliche Teile mit separaten Funktionen
+- Alle Innenteile (Pedale, Joystick, Gears, Park Break) mit einem Skript versehen
+- Der Chopper-Tisch funktioniert nur, wenn er ausgeklappt ist
+- Lichter mit reciveShadows!
+- Alle Standardfunktionen
+]]>
+        </de>
+        <fr>
+            <![CDATA[Il s'agit de la série 70 et 60 américanisée John Deere STS américanisée de 2007 à 2010.
+
+Prix: 160000 €
+Performances: toutes les configurations de moteur des séries STS 70 et 60 (160HP - 410HP)
+Catégorie: Moissonneuse batteuse
+Capacité: 8853l - 15855l
+
+En pack: 60 dernières séries STS de 2007 (9560, 9660, 9760, Brésil), style australien et première série STS de 2010 (séries 9570, 9670, 9770 et 9870) Style australien.
+
+Configurations:
+
+- Roues
+- Extensions de réservoir
+- Moteur
+- échappement
+- pipe
+- Marque de pneu
+- Nombres
+- Conception de la cabine
+- GPS Greenstar
+- Signe Aussie
+- Table Chopper
+
+
+Animation:
+
+
+- Intérieur entièrement scénarisé (moniteurs, icônes, lumières, HUD)
+- animation TurnON
+- Physique réaliste
+- Beaucoup de pièces mobiles avec des fonctions séparées
+- Scripté de toutes les pièces intérieures (pédales, manettes de jeu, engrenages, Park Break)
+- La table Chopper ne fonctionne que lorsqu'elle est dépliée
+- Lumières avec reciveShadows!
+- Toutes les fonctions standard
+]]>
+        </fr>
+
+		<pl>
+            <![CDATA[To jest Johnized STS Americanized seria 70 i 60 od 2007 do 2010 roku.
+
+Cena: 160000 €
+Wydajność: wszystkie konfiguracje silników serii STS 70 i 60 (160 KM - 410 KM)
+Kategoria: Kombajn zbożowy
+Pojemność: 8853l - 15855l
+
+W zestawie: najnowsze 60 serii STS z 2007 r. (9560sts, 9660sts, 9760sts, 9860sts) w Brazylii, USA i Aussie style oraz pierwsze 70 serii STS z 2010 r. (O. 9570, o. 9670, o. 9770 i sts 9870) w Brazylii, USA i Aussie style.
+
+Konfiguracje:
+
+- Koła
+- Rozszerzenia zbiorników
+- Silnik
+- Wydech
+- Rura
+- Marka opon
+- Numery
+- Styl wnetrza kabiny
+- Greenstar GPS
+- Australijksi znacznik
+- Stoły sieczkarni
+
+
+Animacje:
+
+
+- W pełni skryptowe wnętrze (monitory, ikony, światła, HUD)
+- Animacja TurnON
+- Realistyczna fizyka
+- Wiele ruchomych części z oddzielnymi funkcjami
+- Skryptowane wszystkie części wewnętrzne (pedały, joystick, przekładnie, przerwa na park)
+- Stół siekacza działa tylko po rozłożeniu
+- Światła z reciveShadows!
+- Wszystkie standardowe funkcje
+]]>
+        </pl>
+    </description>
+
+    <multiplayer supported="true"/>
+
+    <storeItems>		
+        <storeItem rootNode="vehicle" xmlFilename="JohnDeere_STS60_oldGeneration.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="JohnDeere_STS50.xml"/>
+    </storeItems>
+
+    <vehicleTypes>
+        <type parent="combineDrivable" name="jdsts50" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="baseMaterial" />
+			<specialization name="tipOccluder" />
+			<specialization name="foliageBending" />
+			<specialization name="washable" />
+			<specialization name="wearable" />
+			<specialization name="dynamicallyLoadedParts" />
+			<specialization name="animatedVehicle" />
+			<specialization name="dashboard" />
+			<specialization name="cylindered" />
+			<specialization name="mountable" />
+			<specialization name="ikChains" />
+			<specialization name="wheels" />
+			<specialization name="crawlers" />
+			<specialization name="slopeCompensation" />
+			<specialization name="speedRotatingParts" />
+			<specialization name="enterable" />
+			<specialization name="fillUnit" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="aiVehicle" />
+			<specialization name="aiImplement" />
+			<specialization name="articulatedAxis" />
+			<specialization name="lights" />
+			<specialization name="attacherJoints" />
+			<specialization name="powerTakeOffs" />
+			<specialization name="suspensions" />
+			<specialization name="connectionHoses" />
+			<specialization name="honk" />
+			<specialization name="wipers" />
+			<specialization name="frontloaderAttacher" />
+			<specialization name="bunkerSiloCompacter" />
+			<specialization name="fillVolume" />
+			<specialization name="dischargeable" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="powerConsumer" />
+			<specialization name="groundReference" />
+			<specialization name="workArea" />
+			<specialization name="workParticles" />
+			<specialization name="foldable" />
+			<specialization name="cylinderedFoldable" />
+			<specialization name="combine" />
+			<specialization name="pipe" />
+			<specialization name="crabSteering" />
+			<specialization name="tensionBelts" />
+			<specialization name="trailer" />
+        </type>
+        <type parent="combineDrivable" name="jdsts60old" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="baseMaterial" />
+			<specialization name="tipOccluder" />
+			<specialization name="foliageBending" />
+			<specialization name="washable" />
+			<specialization name="wearable" />
+			<specialization name="dynamicallyLoadedParts" />
+			<specialization name="animatedVehicle" />
+			<specialization name="dashboard" />
+			<specialization name="cylindered" />
+			<specialization name="mountable" />
+			<specialization name="ikChains" />
+			<specialization name="wheels" />
+			<specialization name="crawlers" />
+			<specialization name="slopeCompensation" />
+			<specialization name="speedRotatingParts" />
+			<specialization name="enterable" />
+			<specialization name="fillUnit" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="aiVehicle" />
+			<specialization name="aiImplement" />
+			<specialization name="articulatedAxis" />
+			<specialization name="lights" />
+			<specialization name="attacherJoints" />
+			<specialization name="powerTakeOffs" />
+			<specialization name="suspensions" />
+			<specialization name="connectionHoses" />
+			<specialization name="honk" />
+			<specialization name="wipers" />
+			<specialization name="frontloaderAttacher" />
+			<specialization name="bunkerSiloCompacter" />
+			<specialization name="fillVolume" />
+			<specialization name="dischargeable" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="powerConsumer" />
+			<specialization name="groundReference" />
+			<specialization name="workArea" />
+			<specialization name="workParticles" />
+			<specialization name="foldable" />
+			<specialization name="cylinderedFoldable" />
+			<specialization name="combine" />
+			<specialization name="pipe" />
+			<specialization name="crabSteering" />
+			<specialization name="tensionBelts" />
+			<specialization name="trailer" />
+        </type>
+		    <type parent="combineDrivable" name="jdsts60old_kon" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="baseMaterial" />
+			<specialization name="tipOccluder" />
+			<specialization name="foliageBending" />
+			<specialization name="washable" />
+			<specialization name="wearable" />
+			<specialization name="dynamicallyLoadedParts" />
+			<specialization name="animatedVehicle" />
+			<specialization name="dashboard" />
+			<specialization name="cylindered" />
+			<specialization name="mountable" />
+			<specialization name="ikChains" />
+			<specialization name="wheels" />
+			<specialization name="crawlers" />
+			<specialization name="slopeCompensation" />
+			<specialization name="speedRotatingParts" />
+			<specialization name="enterable" />
+			<specialization name="fillUnit" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="aiVehicle" />
+			<specialization name="aiImplement" />
+			<specialization name="articulatedAxis" />
+			<specialization name="lights" />
+			<specialization name="attacherJoints" />
+			<specialization name="powerTakeOffs" />
+			<specialization name="suspensions" />
+			<specialization name="connectionHoses" />
+			<specialization name="honk" />
+			<specialization name="wipers" />
+			<specialization name="frontloaderAttacher" />
+			<specialization name="bunkerSiloCompacter" />
+			<specialization name="fillVolume" />
+			<specialization name="dischargeable" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="powerConsumer" />
+			<specialization name="groundReference" />
+			<specialization name="workArea" />
+			<specialization name="workParticles" />
+			<specialization name="foldable" />
+			<specialization name="cylinderedFoldable" />
+			<specialization name="combine" />
+			<specialization name="pipe" />
+			<specialization name="crabSteering" />
+			<specialization name="tensionBelts" />
+			<specialization name="trailer" />
+        </type>
+    </vehicleTypes>
+
+	<l10n>
+	    <!-- wheels -->
+		<text name="configuration_WIDE900_2"><en>2WD Singles F:900 R:620</en><pl>2WD F:900 R:620</pl><de>2WD Einfach V:900 H:620</de><fr>2WD Simple F:900 A:620</fr></text>
+		<text name="configuration_WIDE900_4"><en>4WD Singles F:900 R:620</en><pl>4WD F:900 R:620</pl><de>4WD Einfach V:900 H:620</de><fr>4WD Simple F:900 A:620</fr></text>
+		<text name="configuration_2WIDE900_2"><en>2WD Singles F:900 R:750</en><pl>2WD F:900 R:750</pl><de>2WD Einfach V:900 H:750</de><fr>2WD Simple F:900 A:750</fr></text>
+		<text name="configuration_2WIDE900_4"><en>4WD Singles F:900 R:750</en><pl>4WD F:900 R:750</pl><de>4WD Einfach V:900 H:750</de><fr>4WD Simple F:900 A:750</fr></text>
+		<text name="configuration_WIDEDUALS_2"><en>2WD Duals F:650 R:750</en><pl>2WD Blizniaki F:650 R:750</pl><de>2WD Doppel V:650 H:750</de><fr>2WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_WIDEDUALS_4"><en>4WD Duals F:650 R:750</en><pl>4WD Blizniaki F:650 R:750</pl><de>4WD Doppel V:650 H:750</de><fr>4WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_DUALS620_2"><en>2WD Duals F:620 R:750</en><pl>2WD Blizniaki F:620 R:750</pl><de>2WD Doppel V:620 H:750</de><fr>2WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_DUALS620_4"><en>4WD Duals F:620 R:750</en><pl>4WD Blizniaki F:620 R:750</pl><de>4WD Doppel V:620 H:750</de><fr>4WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_ROWCROP_2"><en>2WD Duals F:520 R:750</en><pl>2WD Blizniaki F:520 R:750</pl><de>2WD Doppel V:520 H:750</de><fr>2WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_ROWCROP_4"><en>4WD Duals F:520 R:750</en><pl>4WD Blizniaki F:520 R:750</pl><de>4WD Doppel V:520 H:750</de><fr>4WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_ROWCROPALL2WD"><en>2WD RC Duals F:520 R:620</en><pl>2WD RC Blizniaki F:520 R:620</pl><de>2WD Doppel V:520 H:620</de><fr>2WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_ROWCROPALL"><en>4WD RC Duals F:520 R:620</en><pl>4WD RC Blizniaki F:520 R:620</pl><de>4WD Doppel V:520 H:620</de><fr>4WD les Duels F:650 A:750</fr></text>
+		<text name="configuration_FLOATERS"><en>4WD Floaters F:1250 R:750</en><pl>4WD Szerokie F:1250 R:750</pl><de>4WD Breit V:1250 H:750</de><fr>4WD Flotteurs</fr></text>
+		<text name="configuration_FLOATERS2WD"><en>2WD Floaters F:1250 R:750</en><pl>2WD Szerokie F:1250 R:750</pl><de>2WD Breit V:1250 H:750</de><fr>2WD Flotteurs</fr></text>
+		<text name="configuration_ATI_2"><en>2WD ATI Tracks System</en><pl>2WD ATI Tracks System</pl><de>2WD ATI Laufband</de><fr>2WD Système de pistes ATI</fr></text>
+		<text name="configuration_ATI_4"><en>ATI Tracks System</en><pl>ATI Tracks System</pl><de>ATI Laufband</de><fr>Système de pistes ATI</fr></text>
+
+		<!-- Silniki?????????????????????????????????????? -->
+		<text name="configuration_9560STS"><en>2007 9560 STS</en><pl>2007 9560 STS</pl><de>2007 9560 STS</de><fr>2007 9560 STS</fr></text>
+		<text name="configuration_9660STS"><en>2007 9660 STS</en><pl>2007 9660 STS</pl><de>2007 9660 STS</de><fr>2007 9660 STS</fr></text>
+		<text name="configuration_9760STS"><en>2007 9760 STS</en><pl>2007 9760 STS</pl><de>2007 9760 STS</de><fr>2007 9760 STS</fr></text>
+		<text name="configuration_9860STS"><en>2007 9860 STS</en><pl>2007 9860 STS</pl><de>2007 9860 STS</de><fr>2007 9860 STS</fr></text>
+
+		<text name="configuration_9470STS"><en>2010 9470 STS</en><pl>2010 9470 STS</pl><de>2010 9470 STS</de><fr>2010 9470 STS</fr></text>
+		<text name="configuration_9570STS"><en>2010 9570 STS</en><pl>2010 9570 STS</pl><de>2010 9570 STS</de><fr>2010 9570 STS</fr></text>
+		<text name="configuration_9670STS"><en>2010 9670 STS</en><pl>2010 9670 STS</pl><de>2010 9670 STS</de><fr>2010 9670 STS</fr></text>
+		<text name="configuration_9770STS"><en>2010 9770 STS</en><pl>2010 9770 STS</pl><de>2010 9770 STS</de><fr>2010 9770 STS</fr></text>
+		<text name="configuration_9870STS"><en>2010 9870 STS</en><pl>2010 9870 STS</pl><de>2010 9870 STS</de><fr>2010 9870 STS</fr></text>
+		<text name="configuration_9870STSTuned"><en>2010 Tuned 9870 STS</en><pl>2010 Tuning 9870 STS</pl><de>2010 Gestimmt 9870 STS</de><fr>2010 à l'écoute 9870 STS</fr></text>
+
+		<!-- inne -->
+		<text name="configuration_Tankextensions"><en>Grain Tank Extensions</en><pl>Zbiorniki</pl><de>Korntankverlängerungen</de><fr>Extensions de réservoirs à grain</fr></text>
+		<text name="configuration_MaurerXL"><en>Maurer XL</en><pl>Maurer XL</pl><de>Maurer XL</de><fr>Maurer XL</fr></text>
+		<text name="configuration_Soja"><en>Titan II Extension</en><pl>Zbiornik Titan II</pl><de>Titan II</de><fr>Titan II</fr></text>
+		<text name="configuration_StandardHopper"><en>Maurer Regular</en><pl>Maurer Standardowy</pl><de>Maurer Regulär</de><fr>Maurer Regular</fr></text>
+		<text name="configuration_Rurki"><en>Maurer Brazil Support</en><pl>Maurer z mocowaniem</pl><de>Maurer (Brasilien)</de><fr>Maurer Brésil Support</fr></text>
+		<text name="configuration_Brazylia_tam_gdzie_rafaello"><en>Maurer Brazil Cover</en><pl>Maurer z Plandeką</pl><de>Maurer Abgedeckt (Brasilien)</de><fr>Maurer Brazil Couverture</fr></text>
+		<text name="configuration_BigTop"><en>CRARY BigTop</en><pl>CRARY BigTop</pl><de>Crary BigTop</de><fr>CRARY BigTop</fr></text>
+		<text name="configuration_tankStandard"><en>No Tank Extension</en><pl>Bez nadstawek Zbiornika</pl><de>Standard</de><fr>Aucune extension de réservoir</fr></text>
+		<text name="configuration_tankStandard_rurki"><en>Brazil Support</en><pl>Z mocowaniem</pl><de>Standard (Brasilien)</de><fr>Brésil soutien</fr></text>
+		<text name="configuration_tankStandard_grzyb"><en>Brazil Cover</en><pl>Z Plandeką</pl><de>Abgedeckt (Brasilien)</de><fr>Couverture du Brésil</fr></text>
+
+		<text name="configuration_NOgps"><en>No GPS/OVERSIZE</en><pl>Bez GPS/OVERSIZE</pl><de>Kein GPS/Überbreite</de><fr>Pas de GPS / OVERSIZE</fr></text>
+		<text name="configuration_GPS"><en>Greenstar 3000</en><pl>Greenstar 3000 GPS</pl><de>Greenstar 3000</de><fr>Greenstar 3000</fr></text>
+		<text name="configuration_OVERSIZE"><en>OVERSIZE Sign</en><pl>Znacznik "OVERZISE"</pl><de>Schild Überbreite</de><fr>OVERSIZE Sign</fr></text>
+		<text name="configuration_GPSandOVER"><en>Greenstar 3000/OVERSIZE</en><pl>Greenstar 3000 GPS/Znacznik "OVERSIZE"</pl><de>Greenstar 3000 + Schild Überbreite</de><fr>Greenstar 3000 / OVERSIZE</fr></text>
+
+		<text name="configuration_chopper"><en>Chopper Tailboards</en><pl>Stoły Sieczkarni</pl><de>Häckslerabdeckung</de><fr>Chopper Tailboards</fr></text>
+		<text name="configuration_chopperNO"><en>No Tailboard</en><pl>Bez stołu Sieczkarni</pl><de>Keine Abdeckung</de><fr>Aucune planche de queue</fr></text>
+		<text name="configuration_chopperClassic"><en>Regular vane Tailboard</en><pl>Regularna deska Sieczkarni</pl><de>Standard Häckslerabdeckung</de><fr>Tailboard régulier à palettes</fr></text>
+		<text name="configuration_chopperTasma"><en>Advanced Powercast Tailboard</en><pl>Zaawansowana Sieczkarnia rozrzutna</pl><de>Powercast Verteiler</de><fr>Tailboard avancé de Powercast</fr></text>
+
+		<text name="configuration_number"><en>Numbers</en><pl>Numery</pl><de>Zahlen</de><fr>Nombres</fr></text>
+		<text name="configuration_interior"><en>Interior details</en><pl>Dodatki Wnętrza</pl><de>Innendetails</de><fr>Détails intérieurs</fr></text>
+
+		<text name="configuration_exhaust"><en>Exhaust</en><pl>Komin</pl><de>Auspuff</de><fr>Échappement</fr></text>
+		<text name="configuration_exhaustFlap"><en>Rain Cap</en><pl>Z klapką</pl><de>Regenmütze</de><fr>Bonnet de pluie</fr></text>
+		<text name="configuration_exhaustBlack"><en>Normal Top left</en><pl>Czarny w lewo</pl><de>Normal oben links</de><fr>Normal en haut à gauche</fr></text>
+		<text name="configuration_exhaustBlacktyl"><en>Normal Top back</en><pl>Czarny do tyłu</pl><de>Normales Top zurück</de><fr>Normal haut dos</fr></text>
+		<text name="configuration_exhaustStraight"><en>Straight Pipe left</en><pl>Chromowany w lewo</pl><de>Gerades Rohr links</de><fr>Tube droit à gauche</fr></text>
+		<text name="configuration_exhaustStraighttyl"><en>Straight Pipe back</en><pl>Chromowany do tyłu</pl><de>Gerades Rohr zurück</de><fr>Tuyau droit retour</fr></text>
+
+		<text name="configuration_Pipes"><en>Auger Pipes</en><pl>Rury</pl><de>Schneckenpfeifen</de><fr>Pipes à la tarière</fr></text>
+		<text name="configuration_PipeMala"><en>Short Pipe</en><pl>Krótka Rura</pl><de>Kurze Pfeife</de><fr>Tuyau court</fr></text>
+		<text name="configuration_PipeDuza"><en>Standard Pipe</en><pl>Standardowa Rura</pl><de>Standardrohr</de><fr>Tuyau standard</fr></text>
+		<text name="configuration_PipeFolia"><en>Short old Pipe</en><pl>Krótka z Folią</pl><de>Kurz mit Folie</de><fr>Court avec feuille</fr></text>	
+		
+		<text name="configuration_cover"><en>cover</en><pl>cover</pl><de>cover</de><fr>cover</fr></text>		
+	</l10n>
+</modDesc>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="42">
+    <author>SiiD Modding, JHHG Modding, ESIT, Julian11, MB3D Modeling</author>
+    <version>1.0.0.0</version>
+    <iconFilename>store_JohnDeereSTS.dds</iconFilename>
+    <title>
+        <en>John Deere STS EU Series   2007-2010</en>
+    </title>
+   <description>
+        <en>
+            <![CDATA[Price: 160.000€
+Power: 347HP
+Capacity: 11000l
+]]>
+        </en>
+        <de>
+            <![CDATA[Preis: 160.000€
+Leistung: 347PS
+Kapazität: 11000l
+]]>
+        </de>
+        <fr>
+            <![CDATA[Prix: 160.000€
+Puissance: 347HP
+Capacity: 11000l
+]]>
+        </fr>
+    </description>
+	
+    <multiplayer supported="true"/>
+	
+    <storeItems>
+        <storeItem rootNode="vehicle" xmlFilename="JohnDeere_STS9880.xml"/>
+        <storeItem rootNode="vehicle" xmlFilename="JohnDeere_S690.xml"/>
+    </storeItems>
+	
+    <vehicleTypes>
+        <type parent="combineDrivable" name="jdsts690" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua" >
+			<specialization name="baseMaterial" />
+			<specialization name="tipOccluder" />
+			<specialization name="foliageBending" />
+			<specialization name="washable" />
+			<specialization name="wearable" />
+			<specialization name="dynamicallyLoadedParts" />
+			<specialization name="animatedVehicle" />
+			<specialization name="dashboard" />
+			<specialization name="cylindered" />
+			<specialization name="mountable" />
+			<specialization name="ikChains" />
+			<specialization name="wheels" />
+			<specialization name="crawlers" />
+			<specialization name="slopeCompensation" />
+			<specialization name="speedRotatingParts" />
+			<specialization name="enterable" />
+			<specialization name="fillUnit" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="aiVehicle" />
+			<specialization name="aiImplement" />
+			<specialization name="articulatedAxis" />
+			<specialization name="lights" />
+			<specialization name="attacherJoints" />
+			<specialization name="powerTakeOffs" />
+			<specialization name="suspensions" />
+			<specialization name="connectionHoses" />
+			<specialization name="honk" />
+			<specialization name="wipers" />
+			<specialization name="frontloaderAttacher" />
+			<specialization name="bunkerSiloCompacter" />
+			<specialization name="fillVolume" />
+			<specialization name="dischargeable" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="powerConsumer" />
+			<specialization name="groundReference" />
+			<specialization name="workArea" />
+			<specialization name="workParticles" />
+			<specialization name="foldable" />
+			<specialization name="cylinderedFoldable" />
+			<specialization name="combine" />
+			<specialization name="pipe" />
+			<specialization name="crabSteering" />
+        </type>
+        <type parent="combineDrivable" name="jdsts9880i" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua" >
+			<specialization name="baseMaterial" />
+			<specialization name="tipOccluder" />
+			<specialization name="foliageBending" />
+			<specialization name="washable" />
+			<specialization name="wearable" />
+			<specialization name="dynamicallyLoadedParts" />
+			<specialization name="animatedVehicle" />
+			<specialization name="dashboard" />
+			<specialization name="cylindered" />
+			<specialization name="mountable" />
+			<specialization name="ikChains" />
+			<specialization name="wheels" />
+			<specialization name="crawlers" />
+			<specialization name="slopeCompensation" />
+			<specialization name="speedRotatingParts" />
+			<specialization name="enterable" />
+			<specialization name="fillUnit" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="aiVehicle" />
+			<specialization name="aiImplement" />
+			<specialization name="articulatedAxis" />
+			<specialization name="lights" />
+			<specialization name="attacherJoints" />
+			<specialization name="powerTakeOffs" />
+			<specialization name="suspensions" />
+			<specialization name="connectionHoses" />
+			<specialization name="honk" />
+			<specialization name="wipers" />
+			<specialization name="frontloaderAttacher" />
+			<specialization name="bunkerSiloCompacter" />
+			<specialization name="fillVolume" />
+			<specialization name="dischargeable" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="powerConsumer" />
+			<specialization name="groundReference" />
+			<specialization name="workArea" />
+			<specialization name="workParticles" />
+			<specialization name="foldable" />
+			<specialization name="cylinderedFoldable" />
+			<specialization name="combine" />
+			<specialization name="pipe" />
+			<specialization name="crabSteering" />
+        </type>
+    </vehicleTypes>
+	
+	
+	
+	<l10n>
+	    <!-- wheels -->
+		<text name="configuration_WIDE900_2"><en>2WD Singles F:900 R:620</en><pl>2WD F:900 R:620</pl></text>
+		<text name="configuration_WIDE900_4"><en>4WD Singles F:900 R:620</en><pl>4WD F:900 R:620</pl></text>
+		<text name="configuration_2WIDE900_2"><en>2WD Singles F:900 R:750</en><pl>2WD F:900 R:750</pl></text>
+		<text name="configuration_2WIDE900_4"><en>4WD Singles F:900 R:750</en><pl>4WD F:900 R:750</pl></text>
+		<text name="configuration_FLOATERS"><en>4WD Floaters F:1250 R:750</en><pl>4WD Szerokie F:1250 R:750</pl></text>
+		<text name="configuration_FLOATERS2WD"><en>2WD Floaters F:1250 R:750</en><pl>2WD Szerokie F:1250 R:750</pl></text>
+		<text name="configuration_ATI_2"><en>2WD ATI Tracks System</en><pl>2WD ATI Tracks System</pl></text>
+		<text name="configuration_ATI_4"><en>ATI Tracks System</en><pl>ATI Tracks System</pl></text>
+		
+		
+		<!-- inne -->
+		<text name="configuration_NOgps"><en>No GPS</en><pl>Bez GPS</pl></text>
+		<text name="configuration_GPS"><en>Greenstar 3000</en><pl>Greenstar 3000 GPS</pl></text>
+		<text name="configuration_Warnings"><en>Warning Signs</en><pl>Znaczniki Ostrzegawcze</pl></text>
+		<text name="configuration_GPS_Warnings"><en>Greenstar 3000 + Warning Signs</en><pl>Znaczniki + Greenstar 3000 GPS</pl></text>
+		
+		
+		<text name="configuration_komin"><en>Exhaust</en><pl>Komin</pl></text>
+		<text name="configuration_klapka"><en>Rain Cap Exhaust</en><pl>Klapka</pl></text>
+		<text name="configuration_czarny"><en>Black left Exhaust</en><pl>Czarny Komin - w lewo</pl></text>
+		<text name="configuration_czarny2"><en>Black back Exhaust</en><pl>Czarny Komin - do tylu</pl></text>
+		<text name="configuration_chrom"><en>Straight Pipe left</en><pl>Chromowany Komin - w lewo</pl></text>
+		<text name="configuration_chrom2"><en>Straight Pipe back</en><pl>Chromowany Komin - do tylu</pl></text>
+		
+		
+		<text name="configuration_chopper"><en>Chopper Tailboards</en><pl>Stoły Sieczkarni</pl></text>
+		<text name="configuration_chopperNO"><en>No Tailboard</en><pl>Bez stołu Sieczkarni</pl></text>
+		<text name="configuration_chopperClassic"><en>Regular vane Tailboard</en><pl>Regularna deska Sieczkarni</pl></text>
+		<text name="configuration_chopperTasma"><en>Advanced Powercast Tailboard</en><pl>Zaawansowana Sieczkarnia rozrzutna</pl></text>
+	</l10n>	
+</modDesc>
