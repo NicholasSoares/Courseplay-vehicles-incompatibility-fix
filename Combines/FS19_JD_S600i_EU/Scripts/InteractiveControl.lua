@@ -22,8 +22,6 @@ end;
 
 function InteractiveControl.registerEventListeners(vehicleType)	
 	SpecializationUtil.registerEventListener(vehicleType, "onLoad", InteractiveControl)
-	SpecializationUtil.registerEventListener(vehicleType, "onPostLoad", InteractiveControl)
-	SpecializationUtil.registerEventListener(vehicleType, "saveToXMLFile", InteractiveControl)
 	SpecializationUtil.registerEventListener(vehicleType, "onReadStream", InteractiveControl)
 	SpecializationUtil.registerEventListener(vehicleType, "onWriteStream", InteractiveControl)
 	SpecializationUtil.registerEventListener(vehicleType, "onLeaveVehicle", InteractiveControl)
@@ -45,31 +43,7 @@ function InteractiveControl:onLoad(vehicle)
 	self.panelOverlay = nil;
 	self.foundInteractiveObject = nil;
 	self.isMouseActive = false;
-	self.notLoaded = true;
 end;
-
-function InteractiveControl:onPostLoad(savegame)
-	if savegame ~= nil and not savegame.resetVehicles then
-		for id, iObj in pairs(self.interactiveObjects) do
-			if not id == 1 or not id == 3 then
-				local key = savegame.key.."."..ICModName..".interactiveControl"..string.format(".interactiveObject%d", id)
-				local iObj = self.interactiveObjects[id]
-				state = Utils.getNoNil(getXMLBool(savegame.xmlFile, key.."#state"), false);
-				if iObj ~= nil then
-					iObj:doAction(true, state);
-				end;
-			end;
-		end;
-		self.notLoaded = false;
-	end;
-end
-
-function InteractiveControl:saveToXMLFile(xmlFile, key)
-	for id, iObj in pairs(self.interactiveObjects) do
-		local state = string.format("%s.interactiveObject" .. id, key, id)
-		setXMLBool(xmlFile, state.."#state", iObj.isOpen)
-	end;
-end
 
 function InteractiveControl:onReadStream(streamId, connection)
 	local icCount = streamReadInt8(streamId);
@@ -97,52 +71,32 @@ function InteractiveControl:doActionOnObject(id, noEventSend)
 	self.interactiveObjects[id]:doAction(noEventSend);	
 end;
 
-function InteractiveControl:onAIEnd()
+function InteractiveControl.onLeaveVehicleAnimationsHandler(self)
 	if not self:getIsAIActive() then
 		local icCount = 0;
 		for _,v in pairs(self.interactiveObjects) do
-			if icCount == 1 or icCount == 3 then
-				if(v.isOpen) then
-					v:doAction(true);
-				end;
+			if ((icCount == 1 or icCount == 3) or ((icCount == 0 or icCount == 5) and not self:getIsMotorStarted())) and v.isOpen then
+				v:doAction(true);
 			end;
 			icCount = icCount + 1;
 		end;
 	end;
 end;
 
+function InteractiveControl:onAIEnd()
+	InteractiveControl.onLeaveVehicleAnimationsHandler(self);
+end;
+
 function InteractiveControl:onLeaveVehicle()
-	if not self:getIsAIActive() then
-		local icCount = 0;
-		for _,v in pairs(self.interactiveObjects) do
-			if icCount == 1 or icCount == 3 then
-				if(v.isOpen) then
-					v:doAction(true);
-				end;
-			end;
-			icCount = icCount + 1;
-		end;
-	end;
+	InteractiveControl.onLeaveVehicleAnimationsHandler(self);
 end;
 
 function InteractiveControl:onEnterVehicle()
 	if not self:getIsAIActive() then
 		local icCount = 0;
-		if self.notLoaded then
-			for _,v in pairs(self.interactiveObjects) do
-				if icCount == 0 or icCount == 5 then
-					v:doAction(true);	
-				end;
-				icCount = icCount + 1;
-			end;
-			icCount = 0;
-		end;
-
 		for _,v in pairs(self.interactiveObjects) do
-			if icCount == 1  or icCount == 3 then
-				if(not v.isOpen) then
-					v:doAction(true);
-				end;
+			if (icCount == 0 or icCount == 5 or icCount == 1  or icCount == 3) and not v.isOpen then
+				v:doAction(true);	
 			end;
 			icCount = icCount + 1;
 		end;
